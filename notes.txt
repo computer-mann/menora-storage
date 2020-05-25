@@ -1,0 +1,394 @@
+13119 pre-loader function
+
+they used (jQuery) when finding elements by class name
+
+but use ($) when finding elements by id
+
+I have no idea what this is
+(function(window, document, $, undefined){
+
+
+
+})(window, document, window.jQuery);
+
+menorahltd.herokuapp.com
+/auth
+/auth/sign_in
+/watchlist
+
+
+?first_name=Vic&last_name=Thor&phone=0501589563&email=hpsn16@gmail.com&password=iamawesome
+
+while(!herd.done){
+              console.log(p.value);
+              p.next();
+            }
+
+
+ console.log(`contenttype= ${response.headers.get('Content-Type')}`);
+            console.log(`server = ${response.headers.get('Server')}`);
+            console.log(`etag = ${response.headers.get('Etag')}`);
+            console.log(`cache-control = ${response.headers.get('Cache-Control')}`);
+            console.log(`x-request-id = ${response.headers.get('X-Request-Id')}`);
+            console.log(`x-runtime = ${response.headers.get('X-Runtime')}`);
+            console.log(`vary = ${response.headers.get('Vary')}`);
+            console.log(`connection = ${response.headers.get('Connection')}`);
+console.log(`tokentype = ${response.headers.get('Token-Type')}`);
+
+
+ <header class="app-header top-bar">
+                <!-- begin navbar -->
+                <nav class="navbar navbar-expand-md">
+
+                    <!-- begin navbar-header -->
+                    <div class="navbar-header d-flex align-items-center">
+                        <a href="javascript:void:(0)" class="mobile-toggle"><i class="ti ti-align-right"></i></a>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/logo.png" class="img-fluid logo-desktop" alt="logo" />
+                           <!--  <img src="assets/img/logo-icon.png" class="img-fluid logo-mobile" alt="logo" /> -->
+                            <img src="assets/img/logo.png" class="img-fluid logo-mobile" alt="logo" />
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="ti ti-align-left"></i>
+                    </button>
+                    <!-- end navbar-header -->
+                    <!-- begin navigation -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="navigation d-flex">
+                            <ul class="navbar-nav nav-left">
+                               <!--  <li class="nav-item">
+                                    <a href="javascript:void(0)" class="nav-link sidebar-toggle">
+                                        <i class="ti ti-align-right"></i>
+                                    </a>
+                                </li> -->
+                                <li class="nav-item"> <li class="nav-item">
+                                    <a class="nav-link" href="home.html" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">Home
+                                        
+                                    </a>
+                                   
+                                </li>
+                                <li class="nav-item"> <li class="nav-item">
+                                    <a class="nav-link  " href="portfolio.html" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">Portfolio
+                                       
+                                    </a>
+                                   
+                                </li>
+
+                                <li class="nav-item"> <li class="nav-item">
+                                    <a class="nav-link  " href="prices.html" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">Buy Assets
+                                        
+                                    </a>
+                                   
+                                </li>
+
+                               
+                             
+                                <li class="nav-item full-screen d-none d-lg-block" id="btnFullscreen">
+                                    <a href="javascript:void(0)" class="nav-link expand">
+                                        <i class="icon-size-fullscreen"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav nav-right ml-auto">
+                               
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="fe fe-bell"></i>
+                                        <span class="notify">
+                                                    <span class="blink"></span>
+                                        <span class="dot"></span>
+                                        </span>
+                                    </a>
+                                    <div class="dropdown-menu extended animated fadeIn" aria-labelledby="navbarDropdown">
+                                        <ul>
+                                            <li class="dropdown-header bg-gradient p-4 text-white text-left">Notifications
+                                                <a href="#" class="float-right btn btn-square btn-inverse-light btn-xs m-0">
+                                                    <span class="font-13"> Clear all</span></a>
+                                            </li>
+                                            <li class="dropdown-body min-h-240 nicescroll">
+                                                <ul class="scrollbar scroll_dark max-h-240">
+                                                    <li>
+                                                        <a href="javascript:void(0)">
+                                                            <div class="notification d-flex flex-row align-items-center">
+                                                                <div class="notify-icon bg-img align-self-center">
+                                                                    <div class="bg-type bg-type-md">
+                                                                        <span>HY</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="notify-message">
+                                                                    <p class="font-weight-bold">New registered user</p>
+                                                                    <small>Just now</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">
+                                                            <div class="notification d-flex flex-row align-items-center">
+                                                                <div class="notify-icon bg-img align-self-center">
+                                                                    <div class="bg-type bg-type-md bg-success">
+                                                                        <span>GM</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="notify-message">
+                                                                    <p class="font-weight-bold">New invoice received</p>
+                                                                    <small>22 min</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">
+                                                            <div class="notification d-flex flex-row align-items-center">
+                                                                <div class="notify-icon bg-img align-self-center">
+                                                                    <div class="bg-type bg-type-md bg-danger">
+                                                                        <span>FR</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="notify-message">
+                                                                    <p class="font-weight-bold">Server error report</p>
+                                                                    <small>7 min</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">
+                                                            <div class="notification d-flex flex-row align-items-center">
+                                                                <div class="notify-icon bg-img align-self-center">
+                                                                    <div class="bg-type bg-type-md bg-info">
+                                                                        <span>HT</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="notify-message">
+                                                                    <p class="font-weight-bold">Database report</p>
+                                                                    <small>1 day</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:void(0)">
+                                                            <div class="notification d-flex flex-row align-items-center">
+                                                                <div class="notify-icon bg-img align-self-center">
+                                                                    <div class="bg-type bg-type-md">
+                                                                        <span>DE</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="notify-message">
+                                                                    <p class="font-weight-bold">Order confirmation</p>
+                                                                    <small>2 day</small>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown-footer">
+                                                <a class="font-13" href="javascript:void(0)"> View All Notifications
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link search" href="javascript:void(0)">
+                                        <i class="ti ti-search"></i>
+                                    </a>
+                                    <div class="search-wrapper">
+                                        <div class="close-btn">
+                                            <i class="ti ti-close"></i>
+                                        </div>
+                                        <div class="search-content">
+                                            <form>
+                                                <div class="form-group">
+                                                    <i class="ti ti-search magnifier"></i>
+                                                    <input type="text" class="form-control autocomplete" placeholder="Search Here" id="autocomplete-ajax" autofocus="autofocus">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown user-profile">
+                                    <a href="javascript:void(0)" class="nav-link dropdown-toggle " id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img src="assets/img/avtar/02.jpg" alt="avtar-img">
+                                        <span class="bg-success user-status"></span>
+                                    </a>
+                                    <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
+                                        <div class="bg-gradient px-4 py-3">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="mr-1">
+                                                    <h4 class="text-white mb-0">Alice Williams</h4>
+                                                    <small class="text-white">Henry@example.com</small>
+                                                </div>
+                                                <a href="index.html" class="text-white font-20 tooltip-wrapper" data-toggle="tooltip" data-placement="top" title="" data-original-title="Logout"> <i
+                                                                class="zmdi zmdi-power"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="p-4">
+                                            <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
+                                                <i class="fa fa-user pr-2 text-success"></i> Profile</a>
+                                            <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
+                                                <i class="fa fa-envelope pr-2 text-primary"></i> Inbox
+                                                <span class="badge badge-primary ml-auto">6</span>
+                                            </a>
+                                            <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
+                                                <i class=" ti ti-settings pr-2 text-info"></i> Settings
+                                            </a>
+                                            <a class="dropdown-item d-flex nav-link" href="javascript:void(0)">
+                                                <i class="fa fa-compass pr-2 text-warning"></i> Need help?</a>
+                                            <div class="row mt-2">
+                                                <div class="col">
+                                                    <a class="bg-light p-3 text-center d-block" href="#">
+                                                        <i class="fe fe-mail font-20 text-primary"></i>
+                                                        <span class="d-block font-13 mt-2">My messages</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col">
+                                                    <a class="bg-light p-3 text-center d-block" href="#">
+                                                        <i class="fe fe-plus font-20 text-primary"></i>
+                                                        <span class="d-block font-13 mt-2">Compose new</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end navigation -->
+                </nav>
+                <!-- end navbar -->
+            </header>
+
+
+Correct Modal
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Buy/Sell Crypto Currency</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label>Select the Asset 'Minimum Velue 0.001%</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text px-3" for="bacs">A</label>
+                    </div>
+                    <select class="form-control" id="bacs">
+                        <option>SnapChat</option>
+                        <option>Ethereum</option>
+                        <option>Ripple</option>
+                        <option>Neo</option>
+                        <option>Cardano</option>
+                        <option>Stellar</option>
+                        <option>RaiBlocks</option>
+                        <option>Monero</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Exchange Operation</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        <select class="form-control text-primary">
+                            <option selected>USD</option>
+                            
+                        </select>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Exchange Amount">
+                </div>
+                <div class="text-center py-2"><i class="ti ti-loop"></i></div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <select class="form-control text-primary">
+                                <option selected>GHS</option>
+                                
+                            </select>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Exchange Amount">
+                    </div>
+              </div>
+               <br> 
+
+                <div class="form-group ">
+                    <label>Choose Payment Method</label>
+
+                    <div class="form-group "> 
+                        
+                        <ul class="nav nav-pills nav-fill" id="nav-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link " id="pills-home-tab" data-toggle="pill" href="#momo" role="tab" aria-controls="pills-home" aria-selected="false">Mobile Money</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#cardPayment" role="tab" aria-controls="pills-profile" aria-selected="false">Card Payment</a>
+                            </li>
+                          
+        
+                        </ul>
+                    </div>
+
+                </div>          
+                <!-- Momo Option Here-->
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade " id="momo" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <select class="form-control text-primary">
+                                                <option selected>MTN</option>
+                                                <option selected>VODAFONE</option>
+                                                <option selected>AIRTELTIGO</option>
+                                                
+                                            </select>
+                                        </div>
+                                        <input type="tel" class="form-control" placeholder=" Phone Number">
+                                    </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Card Option Here-->
+                    <div class="tab-pane fade" id="cardPayment" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="form-group">
+                            <div class="form-row">
+                               <div class="col-md-6 mb-3">
+                                   <label for="validationDefault03">Card Number</label>
+                                   <input type="number" class="form-control" id="validationDefault03" placeholder="Card Number" required>
+                               </div>
+                               <div class="col-md-3 mb-3">
+                                   <label for="validationDefault04">Date</label>
+                                   <input type="date" class="form-control" id="validationDefault04" placeholder="Date" required>
+                               </div>
+                               <div class="col-md-3 mb-3">
+                                   <label for="validationDefault05">CVC</label>
+                                   <input type="password" class="form-control" id="validationDefault05" placeholder="CVC" required>
+                               </div>
+                           </div>
+       
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+            </div>
+        
+         </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Make Payment</button>
+      </div>
+    </div>
+  </div>
+</div>

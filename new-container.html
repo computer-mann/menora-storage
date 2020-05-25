@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from themes.potenzaglobalsolutions.com/html/mentor-bootstrap-4-admin-dashboard-template/index-stock-market.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 May 2020 13:47:30 GMT -->
+<head>
+    <title>Menorah - Buy Assets</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Admin template that can be used to build dashboards for CRM, CMS, etc." />
+    <meta name="author" content="Potenza Global Solutions" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- app favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <!-- plugin stylesheets -->
+    <link rel="stylesheet" type="text/css" href="assets/css/vendors.css" />
+    <!-- app style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body style="background-color: cyan">
+    <!-- begin app -->
+    <div class="app">
+        <!-- begin app-wrap -->
+        <div class="app-wrap">
+            <!-- begin pre-loader -->
+            <div class="loader">
+                <div class="h-100 d-flex justify-content-center">
+                    <div class="align-self-center">
+                        <img src="assets/img/loader/loader.svg" alt="loader">
+                    </div>
+                </div>
+            </div>
+            <!-- end pre-loader -->
+            <!-- begin app-header -->
+            <header >
+                <!-- begin navbar -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+    </nav>
+                <!-- end navbar -->
+            </header>
+            <!-- end app-header -->
+
+            <!-- begin app-container -->
+           
+            <!-- end app-wrap -->
+        </div>
+    </div>
+    <!-- end app -->
+
+    <!-- plugins -->
+    <script src="assets/js/vendors.js"></script>
+
+    <!-- custom app -->
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/market.js"></script>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Buy/Sell Crypto Currency</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label>Select the Asset 'Minimum Velue 0.001%</label>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text px-3" for="bacs">A</label>
+                    </div>
+                    <select class="form-control" id="bacs">
+                        <option>SnapChat</option>
+                        <option>Ethereum</option>
+                        <option>Ripple</option>
+                        <option>Neo</option>
+                        <option>Cardano</option>
+                        <option>Stellar</option>
+                        <option>RaiBlocks</option>
+                        <option>Monero</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label>Exchange Operation</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        <select class="form-control text-primary">
+                            <option selected>USD</option>
+                            
+                        </select>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Exchange Amount">
+                </div>
+                <div class="text-center py-2"><i class="ti ti-loop"></i></div>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <select class="form-control text-primary">
+                                <option selected>GHS</option>
+                                
+                            </select>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Exchange Amount">
+                    </div>
+              </div>
+               <br> 
+
+                <div class="form-group ">
+                    <label>Choose Payment Method</label>
+
+                    <div class="form-group "> 
+                        
+                        <ul class="nav nav-pills nav-fill" id="nav-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link " id="pills-home-tab" data-toggle="pill" href="#momo" role="tab" aria-controls="pills-home" aria-selected="false">Mobile Money</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#cardPayment" role="tab" aria-controls="pills-profile" aria-selected="false">Card Payment</a>
+                            </li>
+                          
+        
+                        </ul>
+                    </div>
+
+                </div>          
+                <!-- Momo Option Here-->
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade " id="momo" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <select class="form-control text-primary">
+                                                <option selected>MTN</option>
+                                                <option selected>VODAFONE</option>
+                                                <option selected>AIRTELTIGO</option>
+                                                
+                                            </select>
+                                        </div>
+                                        <input type="tel" class="form-control" placeholder=" Phone Number">
+                                    </div>
+                            
+                        </div>
+                    </div>
+                    <!-- Card Option Here-->
+                    <div class="tab-pane fade" id="cardPayment" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="form-group">
+                            <div class="form-row">
+                               <div class="col-md-6 mb-3">
+                                   <label for="validationDefault03">Card Number</label>
+                                   <input type="number" class="form-control" id="validationDefault03" placeholder="Card Number" required>
+                               </div>
+                               <div class="col-md-3 mb-3">
+                                   <label for="validationDefault04">Date</label>
+                                   <input type="date" class="form-control" id="validationDefault04" placeholder="Date" required>
+                               </div>
+                               <div class="col-md-3 mb-3">
+                                   <label for="validationDefault05">CVC</label>
+                                   <input type="password" class="form-control" id="validationDefault05" placeholder="CVC" required>
+                               </div>
+                           </div>
+       
+                        </div>
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+            </div>
+        
+         </form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Make Payment</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+
+<!-- Mirrored from themes.potenzaglobalsolutions.com/html/mentor-bootstrap-4-admin-dashboard-template/index-stock-market.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 May 2020 13:48:52 GMT -->
+</html>
